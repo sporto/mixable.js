@@ -1,6 +1,6 @@
 Mixable.js
 ===========
-A simple utily for mixins
+A simple utility for mixins
 
 Usage
 --------
@@ -19,6 +19,15 @@ Usage
 
 	myObj.foo;
 	// 1
+
+Arguments
+----------
+
+The mixInto method take two optional arguments:
+
+mixable.mixInto(targetObject, overrideProperties, deepCopy );
+
+overrideProperties and deepCopy are false by default
 
 Tests
 ----------
