@@ -23,11 +23,16 @@ Usage
 Arguments
 ----------
 
-The mixInto method take two optional arguments:
+The mixInto method takes one optional argument:
 
-mixable.mixInto(targetObject, overrideProperties, deepCopy );
+mixable.mixInto(targetObject, overrideProperties );
 
-overrideProperties and deepCopy are false by default
+ - overrideProperties (false by default) makes the properties in the source override the properties in the target
+
+Objects and arrays are cloned
+--------------------
+
+If the mixin object has arrays or objects they will be cloned instead of passed by reference. This is true of nested arrays and objects too.
 
 Tests
 ----------
