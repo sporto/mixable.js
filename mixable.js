@@ -45,10 +45,7 @@ var mixable = (function(){
 
 }());
 
-//
 // CommonJS:
-// Export Functional & Function if an exports object is detected.
-//
 if (typeof exports === 'object') {
 	exports.mixable = mixable;
 }
